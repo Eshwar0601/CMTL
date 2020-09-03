@@ -41,7 +41,7 @@ function ContactUs() {
                     </div>
                     <div class="col-md-12">
                         <div class="text-center">
-                            <a class="btn btn-dark text-white btn-block">Send Message</a>
+                            <button type="submit" class="btn btn-dark text-white btn-block">Send Message</button>
                         </div>
                     </div>
                 </div>
