@@ -31,19 +31,24 @@ function ContactUs() {
                                 <input type="text" id="contact-Subject" class="form-control"/>
                                 <label for="contact-Subject" class="">Subject</label>
                             </div>
+    
+    
+                          <div class="col-md-6 mt-4">
+                              <div class="md-form primary-textarea">
+                                  <textarea id="contact-message" class="md-textarea form-control mb-0" rows="5"></textarea>
+                                  <label for="contact-message">Your message</label>
+                              </div>
+                          </div>
+                          <div class="col-md-12">
+                              <div class="text-center">
+                                  <button type="submit" class="btn btn-dark text-white btn-block">Send Message</button>
+                              </div>
+                          </div>
+    
+    
                         </form>
                     </div>
-                    <div class="col-md-6 mt-4">
-                        <div class="md-form primary-textarea">
-                            <textarea id="contact-message" class="md-textarea form-control mb-0" rows="5"></textarea>
-                            <label for="contact-message">Your message</label>
-                        </div>
-                    </div>
-                    <div class="col-md-12">
-                        <div class="text-center">
-                            <button type="submit" class="btn btn-dark text-white btn-block">Send Message</button>
-                        </div>
-                    </div>
+
                 </div>
 
 
