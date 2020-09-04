@@ -17,7 +17,7 @@ function Projects() {
 
         <div className="row row-content projects-bg">
           <div className="col col-12">
-            <p className="text-black text-center">
+            <p className="text-black text-center project-title">
               Leveraging our core expertise and our professional approach towards analysis and identification of
               clients&#39; needs, we offer comprehensive and tailor-made solutions that are unique and compliant with
               client specifications
@@ -31,9 +31,9 @@ function Projects() {
           </div>
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">HOUSING STRUCTURES</li>
+              <li className="text-center m-5 project-title list-unstyled">HOUSING STRUCTURES</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Geotechnical Investigation for the proposed construction of residential apartments at Site No.5, Borewell Road, Whitefield, Bangalore - <strong>M/s Sanjeevini Projects</strong></li>
               <li>Geotechnical Investigation for the proposed construction of residential development Phase – 6 inside M/s Good Earth Premises, Off Mysore Road, Kambipura Village,Bengaluru - <strong> M/s Good Earth Eco Futures Pvt Ltd. </strong></li>
               <li>Geotechnical Investigation for the Proposed Construction of Commercial Complex at St.John’s Road,, Bangalore - <strong> M/s Axis Concepts Capstone Ltd </strong></li>
@@ -52,9 +52,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">INDUSTRIAL STRUCTURES</li>
+              <li className="text-center m-5 project-title">INDUSTRIAL STRUCTURES</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Evaluation of soil condition below the Flagging Concrete next to compound wall on the rear side of M/s Supreme Overseas Exports India Pvt Ltd at # 44/1, 16th Cross, K.R.Road,Bangalore -  <strong>M/s Supreme Overseas Exports India Pvt Ltd</strong></li>
               <li>Geotechnical investigation for the proposed construction of Factory building at Bangalore Aerospace Park, KIADB Industrial area, Devanahalli Taluk, Bangalore - <strong> M/s SIMPLE TECH AEROSPACE PVT LTD </strong></li>
               <li>Geotechnical Investigation for the Proposed construction of factory building for M/s Nisha Design at Gorantla, Puttaparthi Road, Anantapur District, Andhra Pradesh -<strong> M/s Nisha Design </strong></li>
@@ -74,9 +74,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">PUBLIC STRUCTURES</li>
+              <li className="text-center m-5 project-title">PUBLIC STRUCTURES</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Confirmation report on Stratification encountered and Safe Bearing Capacity adopted at the founding level for the proposed construction of bus stand and commercial complex at NEKRTC old bus stand area, Bellary, Karnataka – <strong> M/s NEKRTC. </strong></li>
               <li>Geotechnical Investigation for the proposed construction of Rastrotthana Health Center &amp; Gym at Kundalahalli, Bangalore – <strong> M/s Mysore Consultants.</strong></li>
               <li>Geotechnical Investigation for the proposed construction of Blood Bank building for M/s Rastrotthana Parishath at Site No.7, Sunkenahalli Ward No.142(49) off Purna Chandra road, Gavipuram Guttahalli, Bangalore - <strong> M/s Mysore Consultants.</strong></li>
@@ -105,9 +105,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">BRIDGES/PAVEMENTS & FLYOVERS</li>
+              <li className="text-center m-5 project-title">BRIDGES/PAVEMENTS & FLYOVERS</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Geotechnical Investigation for the proposed construction of Minor Bridge at Bellara Village, Sira Taluk, Tumkur District, Karnataka State - <strong> M/s NeSa Engineers</strong></li>
               <li>Geotechnical Investigation for the Proposed Construction of Retaining Wall on RHS at Bendaravadi, Chamarajanagara District - <strong> M/s Sri Bapuji Constructions (P) Ltd</strong></li>
               <li>Geotechnical Investigation for the proposed construction of bridge across Doodh Ganga River at Karadga – Bhoj Road, Chikkodi Taluk, Belagum District, Karnataka.(Bridge No.37) – <strong> M/s Classic Consultants, Mysore</strong></li>
@@ -136,9 +136,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">WATER RETAINING STRUCTURES AND EARTHEN EMBANKMENT</li>
+              <li className="text-center m-5 project-title">WATER RETAINING STRUCTURES AND EARTHEN EMBANKMENT</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Geotechnical Investigation for the proposed construction of Sewage Treatment Plant for M/s Radisson Blu Atria Hotel at Palace Road, Bangalore- <strong> M/s Radisson Blu Atria</strong></li>
               <li>Geotechnical Investigation for the proposed construction of Aqueduct (Ch: 177+325 – Ch:182+125) for Yettinahole Project at Gubbi Taluk, Tumkur district, Karnataka. <strong> M/s BSR Infratech India Ltd</strong></li>
               <li>Geotechnical Investigation for the proposed construction of Aqueduct (Ch: 182+530 – Ch:183+210) for Yettinahole Project at Gubbi Taluk, Tumkur district, Karnataka - <strong> M/s Star Builders and Developers</strong></li>
@@ -153,9 +153,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">WINDMILL AND SOLAR PLANT</li>
+              <li className="text-center m-5 project-title">WINDMILL AND SOLAR PLANT</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Geotechnical Investigation for proposed 25 MW Solar Power PV Project at Radder Naganur, Nargund Taluk, Gadag District, Karnataka State - <strong> M/s Oriano Clean Energy Private Limited </strong></li>
               <li>Geotechnical Investigation for proposed 12 MW Solar Power PV Project at Betageri Village, Koppal District, Karnataka State- <strong> M/s Oriano Clean Energy Private Limited </strong></li>
               <li>Geotechnical Investigations at proposed 5 MWp Solar P V Plant Installation at GMR Hyderabad International airport Ltd, Shamshabad, Telangana State - <strong> M/s Daksh Energy solutions</strong></li>
@@ -167,9 +167,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">EDUCATIONAL INSTUTIONS</li>
+              <li className="text-center m-5 project-title">EDUCATIONAL INSTUTIONS</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Geotechnical Investigation for the proposed construction of Auditorium inside Er. Permual Manimekalai College of Engineering, Hosur, Tamil Nadu.- <strong> M/s Studio Whitescape</strong></li>
               <li>Geotechnical investigation for the proposed construction of buiilding inside M/s Bangalore Management Academy School at Doddanakundi, Bangalore, Karnataka- <strong> M/s KEF Infrastructures India Pvt Ltd.</strong></li>
               <li>Geotechnical Investigation for the Proposed Construction of School Building at Site No. 1405, 40th Main, 9th Cross, J.P.Nagar 1st Phase, Bangalore-560 078. <strong>  M/s Jayashree Public School</strong></li>
@@ -183,9 +183,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">PILE AND PLATE LOAD TEST</li>
+              <li className="text-center m-5 project-title">PILE AND PLATE LOAD TEST</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Static Vertical Compression Load Test on Pile for the proposed Construction of  Residential Villas at Bannati, Coonoor, Tamil Nadu - <strong> M/s Alpha Associates</strong></li>
               <li>Static Vertical Compression Load Test on Pile for proposed expansion of Laboratory building inside M/s Mylan Laboratories ltd at Bommasandra-Jigani Link Road, Anekal Taluk, Bangalore - <strong> M/s B.M.Constrotech Pvt Ltd</strong></li>
               <li>Static Vertical Compression Load Test on Pile for Proposed Construction of 5 MLD STP at Chikka Begur, Bengaluru - <strong>M/s Ayyappa Infra Projects Pvt Ltd.</strong></li>
@@ -198,9 +198,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">INVESTIGATION AND RESTORATION OF STRUCTURES</li>
+              <li className="text-center m-5 project-title">INVESTIGATION AND RESTORATION OF STRUCTURES</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Feasibility study for construction of additional floors over existing “Spandana Souharda Sahakari Niyamitha” building at Chandra layout, Bangalore-560040 <strong> M/s Spandana Souharda Sahakari Niyamitha </strong></li>
               <li>Structural Stability Assessment of Identified Ground Floor Slab with Newly Constructed Strong Room of Existing Commercial Building at 5th Main Road, Chamrajpet, Bengaluru - <strong> Mr. Jayant S Gauri </strong></li>
               <li>Feasibility Study For Construction of Additional Floors Over Existing “Residential Building” at No.70, 3rd Cross, CR Layout, JP Nagar Ist Phase, Bangalore-560078 - <strong> Sri. C K Jagannatha </strong></li>
@@ -220,9 +220,9 @@ function Projects() {
 
           <div className='col col-12 project1-bg'>
             <ul>
-              <li className="text-center m-5">NON DESTRUCTIVE TEST ON R C STRUCTURES</li>
+              <li className="text-center m-5 project-title">NON DESTRUCTIVE TEST ON R C STRUCTURES</li>
             </ul>
-            <ol>
+            <ol className="project-text">
               <li>Non-destructive test on identified RC columns at terrace level of existing Garuda Mall building at Yelahanka, Bengaluru- <strong>M/s. BGS Construction Pvt. Ltd.</strong></li>
               <li>Non-Destructive & Semi-Destructive Tests on RC members at Identified regions at Existing Building of    M/S. Remidex Pharma Pvt. Ltd., B-249/250, 6th Main Road, 2nd Stage, Peenya Industrial Area Phase IV, Peenya, Bengaluru- <strong> M/s. SyZyGy Structural Consultants</strong></li>
               <li>Non-destructive test on identified RC columns at upgradation of (SC) MDRS to (SC) MDR PUC Complex at Doddabadagere Village, Harohalli Hobli, Kanakapura Taluk, Ramanagara district, Karnataka - <strong> Mr. G.V.Gopal Reddy</strong></li>

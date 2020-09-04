@@ -1,6 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 
 
@@ -114,11 +119,13 @@
 }
 
 .project1-bg {
+
   background-image: url('./assests/images/project1-bg.png');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .clients-bg {
@@ -138,6 +145,22 @@
   height: 450px;
   border:0;
 
+}
+
+.project-title {
+  font-family: 'Alfa Slab One', cursive;
+  font-size: 1.6rem;
+  
+}
+
+
+.project-text {
+  font-family: 'Lobster', cursive;
+}
+
+
+strong {
+  color: #4b7bec;
 }
 
 /* #485460 */
