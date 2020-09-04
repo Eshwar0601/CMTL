@@ -41,8 +41,13 @@ function Footer() {
             <p className="small-text text-center"><i className="fa fa-envelope-o mr-3" aria-hidden="true"></i>Email: cmtlbengaluru@gmail.com</p>
           </div>
 
-
         </div>
+        <div className="row">
+          <div className="col col-12 text-center mt-4">
+            <p>© 2020 Copyright: Civil Material Testing Laboratory : Designed and Developed by Eshwar  </p>
+          </div>
+        </div>
+
 
       </div>
     </footer>
