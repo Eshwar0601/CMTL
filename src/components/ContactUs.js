@@ -4,8 +4,17 @@ import Footer from './Footer';
 function ContactUs() {
   return (
     <div>
-      <h1 className="text-center"> Contact Us </h1>
       <div className="container">
+
+        <div className="row row-content">
+          <div className="col col-12" >
+            <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
+          </div>
+          <div className="col col-12" >
+            <h1 className="text-headding text-center mb-5 mt-5">Contact Us</h1>
+          </div>
+        </div>
+
         <div className="row">
           <div className="col col-12" >
             <div className="card">
