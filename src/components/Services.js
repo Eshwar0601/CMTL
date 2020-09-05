@@ -18,19 +18,19 @@ function Services() {
 
       <div className="container">
 
-        <div className="row row-content">
-          <div className="col col-12" >
+        <div className="row row-content" >
+          <div className="col col-12" data-aos="fade-in" data-aos-delay="400">
             <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
           </div>
           <div className="col col-12" >
-            <h1 className="text-headding text-center mb-5 mt-5">Our Services</h1>
+            <h1 className="text-headding text-center mb-5 mt-5" data-aos="fade-up" data-aos-delay="600">Our Services</h1>
           </div>
         </div>
         <h4 className="text-center mb-5">Our services give our customers a competitive edge by increasing efficiency of project performance while meeting its specific quality assurance requirements.</h4>
         <div className="row mb-2 mt-5">
 
           <div className="col col-12 col-md-6 ">
-            <div className="card service-card m-2">
+            <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
               <div class="overlay overlay-text">
                 <p className="text-white">
                   “CMTL” team comprises of several qualified and experienced site engineers/supervisors/drill
@@ -55,9 +55,9 @@ function Services() {
           </div>
 
           <div className="col col-12 col-md-6">
-            <div className="card service-card m-2">
+            <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
               <div class="overlay">
-                <p className="text-white overlay-text">
+                <p className="text-white overlay-text" >
                   Geophysical survey is a cost-effective, non-intrusive and relatively quick way of detecting and
                   assessing sub-surface features. CMTL has developed in-house capabilities in geophysics to
                   effectively complement conventional geotechnics for determination of dynamic soil properties,
@@ -74,7 +74,7 @@ function Services() {
 
       <div className="row mb-2">
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay">
               <p className="text-white overlay-text">
@@ -91,7 +91,7 @@ function Services() {
           </div>
         </div>
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay">
               <ul className="text-white">
@@ -117,7 +117,7 @@ function Services() {
 
       <div className="row mb-2">
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay overlay-text">
               <p className="text-white small-text">
@@ -153,7 +153,7 @@ function Services() {
 
 
         <div className="col col-12 col-md-6">
-          <div className="card service-card m-2">
+          <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
             <div class="overlay overlay-text">
               <p className="text-white small-text">
                 CMTL offers comprehensive geotechnical consultancy services ranging from feasibility and design
@@ -186,7 +186,7 @@ function Services() {
 
       <div className="row mb-2">
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay overlay-text">
               <p className="text-white">
@@ -209,7 +209,7 @@ function Services() {
         </div>
 
         <div className="col col-12 col-md-6">
-          <div className="card service-card m-2">
+          <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
             <div class="overlay overlay-text">
               <ul className="text-white">
                 <li>Grain Size Analysis &amp; Hydrometer</li>
@@ -238,7 +238,7 @@ function Services() {
 
       <div className="row mb-2">
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay overlay-text">
               <ul className="text-white mt-5">
@@ -258,7 +258,7 @@ function Services() {
         </div>
 
         <div className="col col-12 col-md-6">
-          <div className="card service-card m-2">
+          <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
             <div class="overlay overlay-text">
               <ul className="text-white mt-5">
                 <li>Establishing site laboratory at the site for geotechnical evaluation of controlled land filling for major earth works like earthen embankments, earthen impounding reservoir etc.</li>
@@ -277,7 +277,7 @@ function Services() {
 
       <div className="row mb-2">
 
-        <div className="col col-12 col-md-6">
+        <div className="col col-12 col-md-6" data-aos="fade-up" data-aos-delay="400">
           <div className="card service-card m-2">
             <div class="overlay overlay-text">
               <ul className="text-white small-text">
@@ -301,7 +301,7 @@ function Services() {
         </div>
 
           <div className="col col-12 col-md-6">
-            <div className="card service-card m-2">
+            <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
               <div class="overlay overlay-text">
                 <p className="text-white mt-5">
                   We are conducting various workshops and training programs on latest technology for individuals,
@@ -322,7 +322,7 @@ function Services() {
 
         <div clasName="row" >
             <div className="col col-12 col-md-6">
-              <div className="card service-card m-2">
+              <div className="card service-card m-2" data-aos="fade-up" data-aos-delay="400">
                 <div class="overlay overlay-text">
                   <ul className="text-white">
                     <li>Rebound Hammer test (Concrete / Bricks / Mortar).</li>

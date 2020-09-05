@@ -7,15 +7,15 @@ import Footer from './Footer';
 
 function About() {
   return (
-    <div>
-      <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
+    <div >
+      <img data-aos="fade-in" data-aos-delay="400" src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
 
       <div className="container">
           <div className="row row-content" >
-              <div className="col col-12 col-md-5">
+              <div className="col col-12 col-md-5" data-aos="fade-left" data-aos-delay="600">
                   <img src={require('../assests/images/about01.jpg')} className="img-fluid image-align-center" alt="Responsive image" />
               </div>
-              <div className="col col-12 col-md-7">
+              <div className="col col-12 col-md-7" data-aos="fade-right" data-aos-delay="900">
                   <p>
                       M/s Civil Material Testing Laboratory herein after referred as “CMTL” is multi-disciplinary
                       consulting services firm in infrastructure industry specializing in various field and laboratory testing
@@ -28,10 +28,10 @@ function About() {
 
 
           <div className="row row-content flex-md-row-reverse bg-dark" >
-              <div className="col col-12 col-md-5">
+              <div className="col col-12 col-md-5" data-aos="fade-right" data-aos-delay="600">
                 <img src={require('../assests/images/about1.jpg')} className="img-fluid image-align-center" alt="Responsive image" />
               </div>
-              <div className="col col-12 col-md-7">
+              <div className="col col-12 col-md-7" data-aos="fade-left" data-aos-delay="900">
                 <p className="text-white">
                     We take pleasure in introducing our organization “CMTL”, by a team of experienced
                     personnel having extensive knowledge in the fields of Geotechnical Investigations, Pile
@@ -43,10 +43,10 @@ function About() {
           </div>
 
           <div className="row row-content " >
-              <div className="col col-12 col-md-5">
+              <div className="col col-12 col-md-5" data-aos="fade-left" data-aos-delay="600">
                   <img src={require('../assests/images/about2.jpg')} className="img-fluid image-align-center" alt="Responsive image" />
               </div>
-              <div className="col col-12 col-md-7">
+              <div className="col col-12 col-md-7" data-aos="fade-right" data-aos-delay="900">
                   <p>
                     Civil Material Testing Laboratory consist of various equipment’s which can conduct around 45 No.
                     of test on various building materials like Soil, Aggregate, Concrete, Bitumen Etc. All the
@@ -59,10 +59,10 @@ function About() {
           </div>
 
           <div className="row row-content flex-md-row-reverse bg-dark" >
-              <div className="col col-12 col-md-5">
+              <div className="col col-12 col-md-5" data-aos="fade-right" data-aos-delay="600">
                 <img src={require('../assests/images/about3.png')} className="img-fluid image-align-center" alt="Responsive image" />
               </div>
-              <div className="col col-12 col-md-7">
+              <div className="col col-12 col-md-7" data-aos="fade-left" data-aos-delay="900">
                 <p className="text-white">
                     Our goal is to exceed the expectations by offering services backed by standardized methodologies
                     based on industry best practices with quality care. Our Consultants and Staff have experience,
@@ -76,10 +76,10 @@ function About() {
           </div>
 
           <div className="row row-content" >
-              <div className="col col-12 col-md-5">
+              <div className="col col-12 col-md-5" data-aos="fade-left" data-aos-delay="600">
                   <img src={require('../assests/images/about4.jpg')} className="img-fluid image-align-center" alt="Responsive image" />
               </div>
-              <div className="col col-12 col-md-7">
+              <div className="col col-12 col-md-7" data-aos="fade-right" data-aos-delay="900">
                   <p>
                     For us at “CMTL”, “QUALITY” is a habit, to actively pursue on a routine basis, not something that
                     is unwillingly imposed upon its staff by the company management. We recognize our commitment to
