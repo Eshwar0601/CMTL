@@ -150,7 +150,7 @@
 .project-title {
   font-family: 'Alfa Slab One', cursive;
   font-size: 1.6rem;
-  
+
 }
 
 
@@ -161,6 +161,17 @@
 
 strong {
   color: #4b7bec;
+}
+
+
+.home1-bg {
+
+  background-image: url('./assests/images/home-bg.png');
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
 
 /* #485460 */

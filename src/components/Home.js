@@ -20,6 +20,14 @@ function Home() {
         </div>
       </div>
       <div className="container">
+
+      <div className="row row-content home1-bg">
+          <div className="col-12">
+              <h1 className="text-headding" data-aos="fade-up" data-aos-delay="600">We Provide the Best Industrial Services World Wide</h1>
+          </div>
+      </div>
+
+
           <div className="row row-content">
               <div className="col col-12 col-md-4 mb-3">
 
@@ -68,11 +76,7 @@ You can visit our help desk for your any kind of technical query:</p>
 
 
           </div>
-          <div className="row row-content">
-              <div className="col-12">
-                  <h1 data-aos="fade-up" data-aos-delay="600">Text comes Here</h1>
-              </div>
-          </div>
+
       </div>
       <Footer />
     </div>
