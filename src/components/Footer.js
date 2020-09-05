@@ -44,7 +44,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col col-12 text-center mt-4">
-            <p>© 2020 Copyright: Civil Material Testing Laboratory : Designed and Developed by Eshwar  </p>
+            <p> © 2020 Copyright: Civil Material Testing Laboratory : Designed and Developed by Eshwar  </p>
           </div>
         </div>
 
