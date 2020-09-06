@@ -1,28 +1,14 @@
-import React, { Component } from 'react';
-import { Navbar,Nav, NavDropdown } from 'react-bootstrap';
-import About from './About';
-import Home from './Home';
-import Services from './Services';
-import Projects from './Projects';
-import Clients from './Clients';
-import ContactUs from './ContactUs';
+import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'font-awesome/css/font-awesome.min.css'
-import { render } from "react-dom";
 
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Redirect
-} from "react-router-dom";
+
 
 
 function Footer() {
   return(
 
-    <footer className="page-footer font-small bg-dark text-white">
+    <footer className="page-footer font-small bg-primary text-white">
       <div className="container">
         <div className="row">
           <div className="col col-12 text-center text-md-left col-md-6 mt-md-0 mt-3">
@@ -44,7 +30,7 @@ function Footer() {
         </div>
         <div className="row">
           <div className="col col-12 text-center mt-4">
-            <p> © 2020 Copyright: Civil Material Testing Laboratory : Designed and Developed by Eshwar  </p>
+            <p> © 2020 Copyright: Civil Material Testing Laboratory : Eshwar (Baghya Consultancy Services) </p>
           </div>
         </div>
 

@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Modal from 'react-bootstrap/Modal'
-import Button from 'react-bootstrap/Button'
 import '../App.css'
 import Footer from './Footer';
 function Services() {
@@ -48,7 +46,7 @@ function Services() {
                 </p>
               </div>
               <img className="card-img-top card-image" src={require('../assests/images/card1.jpg')} alt="Card image cap" />
-              <div className="card-body bg-dark">
+              <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">Geotechnical Investigations</h5>
               </div>
             </div>
@@ -65,7 +63,7 @@ function Services() {
                 </p>
               </div>
               <img className="card-img-top card-image" src={require('../assests/images/card2.jpg')} alt="Card image cap" />
-              <div className="card-body bg-dark">
+              <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">Geophysical Surveys</h5>
               </div>
             </div>
@@ -85,7 +83,7 @@ function Services() {
               </p>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card3.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Highway material testing</h5>
             </div>
           </div>
@@ -108,7 +106,7 @@ function Services() {
               </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card03.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Field Testing</h5>
             </div>
           </div>
@@ -145,7 +143,7 @@ function Services() {
               </p>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card04.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Foundation Testing</h5>
             </div>
           </div>
@@ -177,7 +175,7 @@ function Services() {
                 </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card4.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Geotechnical Engineering Consultancy</h5>
             </div>
           </div>
@@ -202,7 +200,7 @@ function Services() {
 
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card5.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Laboratory Testing</h5>
             </div>
           </div>
@@ -228,7 +226,7 @@ function Services() {
               </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card6.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Soil Testing</h5>
             </div>
           </div>
@@ -251,7 +249,7 @@ function Services() {
               </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card7.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <p className="card-title text-center text-white">Rock Testing</p>
             </div>
           </div>
@@ -268,7 +266,7 @@ function Services() {
               </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card9.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <p className="card-title text-center text-white">Establishment of Quality control /Quality Auditing systems at site labs</p>
             </div>
           </div>
@@ -294,7 +292,7 @@ function Services() {
               </ul>
             </div>
             <img className="card-img-top card-image" src={require('../assests/images/card10.jpg')} alt="Card image cap" />
-            <div className="card-body bg-dark">
+            <div className="card-body bg-primary">
               <h5 className="card-title text-center text-white">Non Destructive Testing, Investigation, Renovation &amp; Restoration</h5>
             </div>
           </div>
@@ -311,7 +309,7 @@ function Services() {
                 </p>
               </div>
               <img className="card-img-top card-image" src={require('../assests/images/card12.jpeg')} alt="Card image cap" />
-              <div className="card-body bg-dark">
+              <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">Training Courses in latest developments in Civil Engineering:</h5>
               </div>
             </div>
@@ -338,7 +336,7 @@ function Services() {
                   </ul>
                 </div>
                 <img className="card-img-top card-image" src={require('../assests/images/card11.jpg')} alt="Card image cap" />
-                <div className="card-body bg-dark">
+                <div className="card-body bg-primary">
                   <h5 className="card-title text-center text-white">NDT Test Facilities</h5>
                 </div>
               </div>

@@ -9,8 +9,8 @@ function Home() {
       <div className="jumbotron linear-background img-fluid">
         <div className="text-white text-center py-5 px-4">
           <div>
-            <h2 className="text-headding h1-responsive pt-3 mb-5" data-aos="fade-down" data-aos-delay="400">Civil Material Testing Laboratory</h2>
-            <p className="mx-3 mb-2 jumbotron-body-text" data-aos="fade-up" data-aos-delay="700">We take pleasure in introducing our organization “CMTL”, by a team of experienced
+            <h2 className="text-headding h1-responsive pt-3 mb-5" data-aos="fade-in" data-aos-delay="400">Civil Material Testing Laboratory</h2>
+            <p className="mx-3 mb-2 jumbotron-body-text" data-aos="fade-in" data-aos-delay="700">We take pleasure in introducing our organization “CMTL”, by a team of experienced
                   personnel having extensive knowledge in the fields of Geotechnical Investigations, Pile
                   Foundations Testing, Non-Destructive Testing of RC &amp; steel Structures, construction material
                   testing Laboratory and other allied services in the field of civil engineering. CMTL provides
