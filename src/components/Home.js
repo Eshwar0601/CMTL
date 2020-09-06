@@ -9,7 +9,7 @@ function Home() {
       <div className="jumbotron linear-background img-fluid">
         <div className="text-white text-center py-5 px-4">
           <div>
-            <h2 className="text-headding h1-responsive pt-3 mb-5" data-aos="fade-in" data-aos-delay="400">Civil Material Testing Laboratory</h2>
+            <h2 className="text-headding h1-responsive pt-3 mb-5" data-aos="zoom-out" data-aos-delay="400">Civil Material Testing Laboratory</h2>
             <p className="mx-3 mb-2 jumbotron-body-text" data-aos="fade-in" data-aos-delay="700">We take pleasure in introducing our organization “CMTL”, by a team of experienced
                   personnel having extensive knowledge in the fields of Geotechnical Investigations, Pile
                   Foundations Testing, Non-Destructive Testing of RC &amp; steel Structures, construction material
@@ -23,7 +23,7 @@ function Home() {
 
       <div className="row row-content home1-bg">
           <div className="col-12">
-              <h1 className="text-headding" data-aos="fade-up" data-aos-delay="600">We Provide the Best Industrial Services World Wide</h1>
+              <h1 className="text-headding" data-aos="zoom-out" data-aos-delay="400">We Provide the Best Industrial Services World Wide</h1>
           </div>
       </div>
 

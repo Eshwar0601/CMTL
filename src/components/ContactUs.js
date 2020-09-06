@@ -7,11 +7,11 @@ function ContactUs() {
       <div className="container">
 
         <div className="row row-content">
-          <div className="col col-12" >
+          <div className="col col-12" data-aos="fade-in" data-aos-delay="400">
             <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
           </div>
-          <div className="col col-12" >
-            <h1 className="text-headding text-center mb-5 mt-5">Contact Us</h1>
+          <div className="col col-12" data-aos="fade-in" data-aos-delay="600" >
+            <h1 className="text-headding text-center mb-5 mt-5" >Contact Us</h1>
           </div>
         </div>
 

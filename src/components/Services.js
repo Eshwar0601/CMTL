@@ -21,7 +21,7 @@ function Services() {
             <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
           </div>
           <div className="col col-12" >
-            <h1 className="text-headding text-center mb-5 mt-5" data-aos="fade-up" data-aos-delay="600">Our Services</h1>
+            <h1 className="text-headding text-center mb-5 mt-5" data-aos="fade-in" data-aos-delay="600">Our Services</h1>
           </div>
         </div>
         <h4 className="text-center mb-5">Our services give our customers a competitive edge by increasing efficiency of project performance while meeting its specific quality assurance requirements.</h4>

@@ -11,7 +11,7 @@ function Projects() {
             <img src={require('../assests/images/logo.png')} className="img-fluid image-align-center" alt="Responsive image" />
           </div>
           <div className="col col-12" >
-            <h1 className="text-headding text-center mb-5 mt-5" data-aos="fade-up" data-aos-delay="600">Projects</h1>
+            <h1 className="text-headding text-center mb-5 mt-5" data-aos="fade-in" data-aos-delay="500">Projects</h1>
           </div>
         </div>
 

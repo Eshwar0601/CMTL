@@ -12,11 +12,11 @@ function ShowNavbar() {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav">
             <Nav className="ml-auto">
+              <Link to="/about" className="nav-link text-dark">ABOUT US</Link>
               <Link to="/" className="nav-link text-dark">HOME</Link>
               <Link to="/services" className="nav-link text-dark">SERVICES</Link>
               <Link to="/projects" className="nav-link text-dark">PROJECTS</Link>
               <Link to="/clients" className="nav-link text-dark">CLIENTS</Link>
-              <Link to="/about" className="nav-link text-dark">ABOUT US</Link>
               <Link to="/contactus" className="nav-link text-dark">CONTACT US</Link>
             </Nav>
           </Navbar.Collapse>
