@@ -1,22 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kufam:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
 
-
-
-.linear-background  {
-
-  background-image: url('./assests/images/jumbotron-bg.png');
+.linear-background {
+  background-image: url("./assests/images/jumbotron-bg.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .logo {
@@ -26,7 +22,7 @@
 
 .text-headding {
   opacity: 100;
-  font-family: 'Russo One', sans-serif;
+  font-family: "Russo One", sans-serif;
   font-size: 3rem;
   color: #1e272e;
 }
@@ -34,8 +30,8 @@
 .jumbotron-body-text {
   margin-top: 10px;
   font-size: 12px;
-  color:black ;
-  font-family: 'Noto Sans JP', sans-serif;
+  color: black;
+  font-family: "Noto Sans JP", sans-serif;
 }
 .row-content {
   align-items: center;
@@ -43,7 +39,6 @@
   min-height: 400px;
   border-bottom: 1px ridge;
 }
-
 
 .image-align-center {
   display: block;
@@ -61,7 +56,7 @@
 }
 
 .modal-dialog {
-    max-width: none;
+  max-width: none;
 }
 
 .small-text {
@@ -85,7 +80,7 @@
   height: 100%;
   width: 100%;
   opacity: 0;
-  transition: .5s ease;
+  transition: 0.5s ease;
   background-color: #2f3640;
 }
 
@@ -93,9 +88,8 @@
   opacity: 1;
 }
 
-
 .overlay-text {
-  text-align:center;
+  text-align: center;
   display: table-cell;
 }
 
@@ -104,7 +98,7 @@
 }
 
 .projects-bg {
-  background-image: url('./assests/images/projects-bg.png');
+  background-image: url("./assests/images/projects-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -113,23 +107,21 @@
 
 .project-text-headding {
   opacity: 100;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-size: 2rem;
   color: #1e272e;
 }
 
 .project1-bg {
-
-  background-image: url('./assests/images/project1-bg.png');
+  background-image: url("./assests/images/project1-bg.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
 .clients-bg {
-  background-image: url('./assests/images/clients-bg.png');
+  background-image: url("./assests/images/clients-bg.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -138,42 +130,46 @@
 
 .center-img {
   margin: auto;
-
 }
 
 .map-style {
   height: 450px;
-  border:0;
-
+  border: 0;
 }
 
 .project-title {
-  font-family: 'Alfa Slab One', cursive;
+  font-family: "Alfa Slab One", cursive;
   font-size: 1.6rem;
-
 }
-
 
 .project-text {
-  font-family: 'Lobster', cursive;
+  font-family: "Lobster", cursive;
 }
-
 
 strong {
   color: #4b7bec;
 }
 
-
 .home1-bg {
-
-  background-image: url('./assests/images/home-bg.png');
+  background-image: url("./assests/images/quote-bg.png");
 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 
+.hr-center {
+  text-align: center;
+  margin: auto;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
 /* #485460 */
 
 /* .App {
