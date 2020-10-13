@@ -9,11 +9,7 @@ function Home() {
       <div className="jumbotron linear-background img-fluid">
         <div className="text-white text-center py-5 px-4">
           <div>
-            <h2
-              className="text-headding h1-responsive pt-3 mb-5"
-              data-aos="zoom-out"
-              data-aos-delay="400"
-            >
+            <h2 className="text-headding h1-responsive pt-3 mb-5">
               Civil Material Testing Laboratory
             </h2>
             <p
