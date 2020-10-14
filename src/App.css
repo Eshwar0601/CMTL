@@ -180,7 +180,7 @@ strong {
   column-width: 33%;
 } */
 
-@media (max-width: 450px) {
+/* @media (max-width: 450px) {
   .gallery {
     -webkit-column-count: 1;
     -moz-column-count: 1;
@@ -196,7 +196,7 @@ strong {
     padding-left: 1.1rem;
     padding-right: 1.1rem;
   }
-}
+} */
 
 .gallery {
   margin-top: 20px;
@@ -375,52 +375,156 @@ strong {
 
 @media (max-width: 500px) {
   .gallery {
-    grid-template-columns: repeat(6, 1fr);
-    grid-template-rows: repeat(8, 5vw);
+    grid-template-columns: 2;
+    grid-template-rows: repeat(auto-fit, 5vw);
   }
 
   .gallery__item--1 {
     grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 10;
     grid-row-start: 2;
     grid-row-end: 5;
   }
 
   .gallery__item--2 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 2;
-    grid-row-end: 5;
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 8;
   }
 
   .gallery__item--3 {
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 5;
-    grid-row-end: 8;
+    grid-column-end: 10;
+    grid-row-start: 8;
+    grid-row-end: 11;
   }
   .gallery__item--4 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 5;
-    grid-row-end: 8;
-  }
-  .gallery__item--5 {
     grid-column-start: 1;
-    grid-column-end: 4;
-    grid-row-start: 8;
-    grid-row-end: 11;
-  }
-  .gallery__item--6 {
-    grid-column-start: 4;
-    grid-column-end: 7;
-    grid-row-start: 8;
-    grid-row-end: 11;
-  }
-  .gallery__item--7 {
-    grid-column-start: 1;
-    grid-column-end: 4;
+    grid-column-end: 10;
     grid-row-start: 11;
     grid-row-end: 14;
+  }
+
+  .gallery__item--01 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .gallery__item--02 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+
+  .gallery__item--03 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 13;
+  }
+
+  /* HIGHWAY MATERIAL TESTING */
+
+  .gallery__item--001 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 1;
+    grid-row-end: 5;
+  }
+  .gallery__item--002 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 5;
+    grid-row-end: 9;
+  }
+  .gallery__item--003 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 9;
+    grid-row-end: 13;
+  }
+  .gallery__item--004 {
+    grid-column-start: 1;
+    grid-column-end: 10;
+    grid-row-start: 13;
+    grid-row-end: 17;
+  }
+
+  /* LABORATORY TESTING */
+
+  .gallery0001 {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-template-rows: repeat(auto-fit 5vw);
+    grid-gap: 10px;
+  }
+  .gallery__item--0001 {
+    grid-column: 1/10;
+    grid-row: 1/12;
+  }
+  .gallery__item--0002 {
+    grid-column: 1/10;
+    grid-row: 12/14;
+  }
+  .gallery__item--0003 {
+    grid-column: 1/10;
+    grid-row: 14/18;
+  }
+  .gallery__item--0004 {
+    grid-column: 1/10;
+    grid-row: 18/22;
+  }
+
+  /* NDT TEST FACILITIES */
+
+  .gallery__item--10 {
+    grid-column: 1/10;
+    grid-row: 1/12;
+  }
+  .gallery__item--20 {
+    grid-column: 1/10;
+    grid-row: 12/16;
+  }
+  .gallery__item--30 {
+    grid-column: 1/10;
+    grid-row: 16/20;
+  }
+  .gallery__item--40 {
+    grid-column: 1/10;
+    grid-row: 20/24;
+  }
+  .gallery__item--50 {
+    grid-column: 1/10;
+    grid-row: 24/28;
+  }
+  .gallery__item--60 {
+    grid-column: 1/10;
+    grid-row: 28/32;
+  }
+  .gallery__item--70 {
+    grid-column: 1/10;
+    grid-row: 32/36;
+  }
+
+  /* TRAINING COURSES */
+
+  .gallery__item--0201 {
+    grid-column: 1/10;
+    grid-row: 1/6;
+  }
+  .gallery__item--0202 {
+    grid-column: 1/10;
+    grid-row: 6/12;
+  }
+
+  .text-headding {
+    opacity: 100;
+    font-family: "Russo One", sans-serif;
+    font-size: 2rem;
+    color: #1e272e;
   }
 }

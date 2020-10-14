@@ -15,7 +15,7 @@ function Home() {
             <p
               className="mx-3 mb-2 jumbotron-body-text"
               data-aos="fade-in"
-              data-aos-delay="700"
+              data-aos-delay="200"
             >
               We take pleasure in introducing our organization “CMTL”, by a team
               of experienced personnel having extensive knowledge in the fields
