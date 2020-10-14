@@ -23,7 +23,7 @@ function About() {
             data-aos-delay="400"
           >
             <img
-              src={require("../assests/images/about01.jpg")}
+              src={require("../assests/images/card1.jpg")}
               className="img-fluid image-align-center"
               alt="Responsive image"
             />
@@ -53,7 +53,7 @@ function About() {
             data-aos-delay="400"
           >
             <img
-              src={require("../assests/images/about1.jpg")}
+              src={require("../assests/images/Image_28.png")}
               className="img-fluid image-align-center"
               alt="Responsive image"
             />
@@ -83,7 +83,7 @@ function About() {
             data-aos-delay="400"
           >
             <img
-              src={require("../assests/images/about2.jpg")}
+              src={require("../assests/images/Image_07.png")}
               className="img-fluid image-align-center"
               alt="Responsive image"
             />

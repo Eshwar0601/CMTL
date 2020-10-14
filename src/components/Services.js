@@ -141,9 +141,8 @@ function Services() {
                 </ul>
               </div>
               <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card3.jpg")}
-                alt="Card image cap"
+                className="card-img-top card-image image-height"
+                src={require("../assests/images/National-Highways-India.jpg")}
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -174,7 +173,7 @@ function Services() {
               </div>
               <img
                 className="card-img-top card-image"
-                src={require("../assests/images/card11.jpg")}
+                src={require("../assests/images/Image_28.png")}
                 alt="Card image cap"
               />
               <div className="card-body bg-primary">
@@ -523,7 +522,7 @@ function Services() {
               </div>
               <img
                 className="card-img-top card-image"
-                src={require("../assests/images/card10.jpg")}
+                src={require("../assests/images/building_restoration.jpg")}
                 alt="Card image cap"
               />
               <div className="card-body bg-primary">
@@ -553,8 +552,8 @@ function Services() {
                 </p>
               </div>
               <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card12.jpeg")}
+                className="card-img-top card-image image-less-height"
+                src={require("../assests/images/Image_36.png")}
                 alt="Card image cap"
               />
               <div className="card-body bg-primary">

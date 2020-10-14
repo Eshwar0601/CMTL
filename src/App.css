@@ -171,6 +171,19 @@ strong {
   transform: translateY(-50%);
 }
 
+.image-height {
+  height: 395px;
+  width: auto;
+  background-position: center;
+  background-size: auto;
+}
+.image-less-height {
+  height: 350px;
+  width: auto;
+  background-position: center;
+  background-size: auto;
+}
+
 /* .gallery {
   -webkit-column-count: 3;
   -moz-column-count: 3;

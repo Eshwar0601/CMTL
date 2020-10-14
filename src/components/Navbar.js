@@ -28,11 +28,11 @@ function ShowNavbar() {
             <Link to="/clients" className="nav-link text-white">
               CLIENTS
             </Link>
-            <Link to="/contactus" className="nav-link text-white">
-              CONTACT US
-            </Link>
             <Link to="/gallery" className="nav-link text-white">
               GALLERY
+            </Link>
+            <Link to="/contactus" className="nav-link text-white">
+              CONTACT US
             </Link>
           </Nav>
         </Navbar.Collapse>
