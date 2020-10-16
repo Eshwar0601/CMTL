@@ -13,12 +13,13 @@ function ShowNavbar() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto">
-            <Link to="/about" className="nav-link text-white">
-              ABOUT US
-            </Link>
             <Link to="/" className="nav-link text-white">
               HOME
             </Link>
+            <Link to="/about" className="nav-link text-white">
+              ABOUT US
+            </Link>
+
             <Link to="/services" className="nav-link text-white">
               SERVICES
             </Link>

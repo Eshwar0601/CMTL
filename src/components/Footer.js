@@ -1,50 +1,60 @@
-import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import 'font-awesome/css/font-awesome.min.css'
-
-
-
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import "font-awesome/css/font-awesome.min.css";
 
 function Footer() {
-  return(
-
+  return (
     <footer className="page-footer font-small bg-primary text-white">
       <div className="container">
         <div className="row">
           <div className="col col-12 text-center text-md-left col-md-6 mt-md-0 mt-3">
-            <h5 className="text-uppercase text-headding text-white border-bottom">CMTL</h5>
-            <p className="small-text">( An ISO 9001:2015 Certified Laboratory )</p>
-            <p className="small-text"># 484/A, 11th Cross,  West of Chord Road</p>
+            <h5 className="text-uppercase footer-text-headding text-white border-bottom">
+              Civil Material Testing Laboratory
+            </h5>
+            <p className="small-text">
+              ( An ISO 9001:2015 Certified Laboratory )
+            </p>
+            <p className="small-text">
+              # 484/A, 11th Cross, West of Chord Road
+            </p>
             <p className="small-text">Mahalakshmipuram</p>
             <p className="small-text">Bengaluru-560 086</p>
-
           </div>
           <div className="col col-12 text-center text-md-right col-md-6 mt-md-0 mt-3">
             <h5 className="text-center mt-5">Contact Us</h5>
-            <p className="small-text text-center"><i className="fa fa-phone mr-3 " aria-hidden="true"></i>Mobile No: +91 9108498444 </p>
-            <p className="small-text text-center"><i className="fa fa-phone mr-3" aria-hidden="true"></i>Mobile No: +91 9972398924 </p>
-            <p className="small-text text-center"><i className="fa fa-phone mr-3" aria-hidden="true"></i>Mobile No: +91 6366729062 </p>
-            <p className="small-text text-center"><i className="fa fa-envelope-o mr-3" aria-hidden="true"></i>Email: cmtlbengaluru@gmail.com</p>
+            <p className="small-text text-center">
+              <i className="fa fa-phone mr-3 " aria-hidden="true"></i>Mobile No:
+              +91 9108498444{" "}
+            </p>
+            <p className="small-text text-center">
+              <i className="fa fa-phone mr-3" aria-hidden="true"></i>Mobile No:
+              +91 9972398924{" "}
+            </p>
+            <p className="small-text text-center">
+              <i className="fa fa-phone mr-3" aria-hidden="true"></i>Mobile No:
+              +91 6366729062{" "}
+            </p>
+            <p className="small-text text-center">
+              <i className="fa fa-envelope-o mr-3" aria-hidden="true"></i>Email:
+              cmtlbengaluru@gmail.com
+            </p>
           </div>
-
         </div>
         <div className="row">
           <div className="col col-12 text-center mt-4">
-            <p> © 2020 Copyright: Civil Material Testing Laboratory : Eshwar (Baghya Consultancy Services) </p>
+            <p>
+              {" "}
+              © 2020 Copyright: Civil Material Testing Laboratory : Eshwar
+              (Baghya Consultancy Services){" "}
+            </p>
           </div>
         </div>
-
-
       </div>
     </footer>
-
-
   );
 }
 
 export default Footer;
-
-
 
 // <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
 //   <Navbar.Brand to="/"><img src={require('../assests/images/logo.png')}  className="logo" /></Navbar.Brand>
@@ -80,13 +90,6 @@ export default Footer;
 //     <Home />
 //   </Route>
 // </Switch>
-
-
-
-
-
-
-
 
 // <footer class="page-footer font-small bg-warning">
 //     <div style="background-color: #6351ce;">
@@ -145,23 +148,6 @@ export default Footer;
 //         © 2020 Copyright: Sri Durga Constructions
 //     </div>
 // </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 // function Footer() {
 //   return(

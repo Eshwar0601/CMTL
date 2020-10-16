@@ -351,7 +351,8 @@ function Services() {
               </div>
               <img
                 className="card-img-top card-image"
-                src={require("../assests/images/card5.jpg")}
+                height="375"
+                src={require("../assests/images/card7.jpg")}
                 alt="Card image cap"
               />
               <div className="card-body bg-primary">
@@ -392,6 +393,7 @@ function Services() {
               </div>
               <img
                 className="card-img-top card-image"
+                height="350"
                 src={require("../assests/images/card9.jpg")}
                 alt="Card image cap"
               />
@@ -522,7 +524,8 @@ function Services() {
               </div>
               <img
                 className="card-img-top card-image"
-                src={require("../assests/images/building_restoration.jpg")}
+                height="350"
+                src={require("../assests/images/renovation.jpeg")}
                 alt="Card image cap"
               />
               <div className="card-body bg-primary">

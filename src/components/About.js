@@ -83,7 +83,7 @@ function About() {
             data-aos-delay="400"
           >
             <img
-              src={require("../assests/images/Image_07.png")}
+              src={require("../assests/images/about4.jpg")}
               className="img-fluid image-align-center"
               alt="Responsive image"
             />
@@ -140,7 +140,7 @@ function About() {
         </div>
 
         <div className="row row-content">
-          <div
+          {/* <div
             className="col col-12 col-md-5"
             data-aos="fade-left"
             data-aos-delay="400"
@@ -150,20 +150,19 @@ function About() {
               className="img-fluid image-align-center"
               alt="Responsive image"
             />
-          </div>
-          <div
-            className="col col-12 col-md-7"
-            data-aos="fade-right"
-            data-aos-delay="700"
-          >
-            <p>
-              For us at “CMTL”, “QUALITY” is a habit, to actively pursue on a
-              routine basis, not something that is unwillingly imposed upon its
-              staff by the company management. We recognize our commitment to
-              the society at large and are aware of the implications of our work
-              in nation building. We work with the motto “We test today for
-              tomorrow’s progress”.
-            </p>
+          </div> */}
+          <div className="col col-12" data-aos="fade-up" data-aos-delay="700">
+            <h4 className="text-black hr-center">
+              <b>
+                {" "}
+                For us at “CMTL”, “QUALITY” is a habit, to actively pursue on a
+                routine basis, not something that is unwillingly imposed upon
+                its staff by the company management. We recognize our commitment
+                to the society at large and are aware of the implications of our
+                work in nation building. We work with the motto “We test today
+                for tomorrow’s progress”.
+              </b>
+            </h4>
           </div>
         </div>
       </div>

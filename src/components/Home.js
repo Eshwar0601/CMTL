@@ -38,7 +38,7 @@ function Home() {
               data-aos-delay="400"
             >
               "Our Commitment is to provide the best quality work and timely
-              completion of the project with full satisfaction of out clients"
+              completion of the project with full satisfaction of our clients"
             </h1>
           </div>
         </div>
@@ -56,10 +56,10 @@ function Home() {
                   What We Offer
                 </h3>
                 <p className="card-text text-center">
-                  We offer laboratory services in the field of Road and Building
-                  Material, Geotechnical investigation,Geophysical Surveys,
-                  Highway material testing, Field Testing, Foundation Testing,
-                  and many more.
+                  We offer laboratory services in the field of Building
+                  material, Geotechnical investigation,Geophysical Surveys,
+                  Highway material testing, Foundation testing, Non-Destructive
+                  Testing of RC &amp; steel Structures, and many more.
                 </p>
                 <div className="hr-center">
                   <button className="btn bg-primary">
