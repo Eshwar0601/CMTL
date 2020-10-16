@@ -33,7 +33,7 @@ function Home() {
         <div className="row row-content home1-bg mb-5">
           <div className="col-12">
             <h1
-              className="text-headding hr-center"
+              className="text-headding-quote hr-center"
               data-aos="zoom-out"
               data-aos-delay="400"
             >

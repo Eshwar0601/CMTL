@@ -6,6 +6,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lobster&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
 
 .linear-background {
   background-image: url("./assests/images/jumbotron-bg.png");
@@ -23,7 +24,14 @@
 .text-headding {
   opacity: 100;
   font-family: "Russo One", sans-serif;
-  font-size: 3rem;
+  font-size: 4rem;
+  color: #1e272e;
+}
+
+.text-headding-quote {
+  opacity: 100;
+  font-family: "Russo One", sans-serif;
+  font-size: 2rem;
   color: #1e272e;
 }
 .footer-text-headding {
@@ -34,10 +42,11 @@
 }
 
 .jumbotron-body-text {
+  font-family: "Montserrat", sans-serif;
+  /* font-weight: bold; */
   margin-top: 10px;
-  font-size: 12px;
+  font-size: 15px;
   color: black;
-  font-family: "Noto Sans JP", sans-serif;
 }
 .row-content {
   align-items: center;
@@ -543,7 +552,13 @@ strong {
   .text-headding {
     opacity: 100;
     font-family: "Russo One", sans-serif;
-    font-size: 2rem;
+    font-size: 40px;
+    color: #1e272e;
+  }
+  .text-headding-quote {
+    opacity: 100;
+    font-family: "Russo One", sans-serif;
+    font-size: 20px;
     color: #1e272e;
   }
 }
