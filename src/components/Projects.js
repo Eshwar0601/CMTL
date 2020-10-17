@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Footer from "./Footer";
 function Projects() {
@@ -10,7 +10,7 @@ function Projects() {
             <img
               src={require("../assests/images/logo.png")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="logo"
             />
           </div>
           <div className="col col-12">

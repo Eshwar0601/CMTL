@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Footer from "./Footer";
@@ -49,7 +49,7 @@ function Home() {
               <img
                 className="card-img-top"
                 src={require("../assests/images/home-card-1.png")}
-                alt="Card image cap"
+                alt="What We Offer"
               />
               <div className="card-body">
                 <h3 className="card-title border-bottom text-center">
@@ -77,7 +77,7 @@ function Home() {
               <img
                 className="card-img-top"
                 src={require("../assests/images/home-card-2.png")}
-                alt="Card image cap"
+                alt="Expert Engineers"
               />
               <div className="card-body">
                 <h3 className="card-title border-bottom text-center">
@@ -102,7 +102,7 @@ function Home() {
               <img
                 className="card-img-top"
                 src={require("../assests/images/image-card-3.jpg")}
-                alt="Card image cap"
+                alt="Customer Support"
               />
               <div className="card-body">
                 <h3 className="card-title border-bottom text-center">

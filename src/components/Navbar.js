@@ -8,7 +8,11 @@ function ShowNavbar() {
     <nav>
       <Navbar collapseOnSelect expand="lg" bg="primary" variant="dark">
         <Navbar.Brand to="/">
-          <img src={require("../assests/images/logo.png")} className="logo" />
+          <img
+            src={require("../assests/images/logo.png")}
+            className="logo"
+            alt="logo"
+          />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

@@ -12,7 +12,7 @@ function About() {
         data-aos-delay="400"
         src={require("../assests/images/logo.png")}
         className="img-fluid image-align-center"
-        alt="Responsive image"
+        alt="logo"
       />
 
       <div className="container">
@@ -25,7 +25,7 @@ function About() {
             <img
               src={require("../assests/images/card1.jpg")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="about us"
             />
           </div>
           <div
@@ -55,7 +55,7 @@ function About() {
             <img
               src={require("../assests/images/Image_28.png")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="about us"
             />
           </div>
           <div
@@ -85,7 +85,7 @@ function About() {
             <img
               src={require("../assests/images/about4.jpg")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="about us"
             />
           </div>
           <div
@@ -116,7 +116,7 @@ function About() {
             <img
               src={require("../assests/images/about3.png")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="about us"
             />
           </div>
           <div

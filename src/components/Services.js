@@ -1,12 +1,8 @@
-import React, { Component } from "react";
+import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../App.css";
 import Footer from "./Footer";
 function Services() {
-  // const [showOne, setShow] = React.useState(false);
-  // const closeModelOne = () => setShow(false);
-  // const showModelOne = () => setShow(true);
-
   return (
     <div>
       <div className="container">
@@ -15,7 +11,7 @@ function Services() {
             <img
               src={require("../assests/images/logo.png")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="logo"
             />
           </div>
           <div className="col col-12">
@@ -61,7 +57,7 @@ function Services() {
               <img
                 className="card-img-top card-image"
                 src={require("../assests/images/card1.jpg")}
-                alt="Card image cap"
+                alt="Geotechnical Investigations"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -92,7 +88,7 @@ function Services() {
               <img
                 className="card-img-top card-image"
                 src={require("../assests/images/card2.jpg")}
-                alt="Card image cap"
+                alt="Geophysical Surveys"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -143,6 +139,7 @@ function Services() {
               <img
                 className="card-img-top card-image image-height"
                 src={require("../assests/images/National-Highways-India.jpg")}
+                alt="Highway material testing"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -174,7 +171,7 @@ function Services() {
               <img
                 className="card-img-top card-image"
                 src={require("../assests/images/Image_28.png")}
-                alt="Card image cap"
+                alt="NDT Test Facilities"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -183,44 +180,6 @@ function Services() {
               </div>
             </div>
           </div>
-          {/* <div
-            className="col col-12 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div className="card service-card m-2">
-              <div class="overlay vertical-center">
-                <p className="text-white text-center">Field Testing</p>
-                <ul className="text-white">
-                  <li>Field CBR Testing</li>
-                  <li>
-                    Field Density Testing by Sand Replacement/Core Cutter Method
-                  </li>
-                  <li>Modulus of Sub grade Reaction (K value) Testing</li>
-                  <li>WBM/WMM composition verification.</li>
-                </ul>
-                <p className="text-white text-center">
-                  Quarry/Borrow area Approval Testing
-                </p>
-                <ul className="text-white">
-                  <li>
-                    Sampling and testing of quarry material to check its
-                    material suitability as per IS/MoRT&amp;H specifications.
-                  </li>
-                </ul>
-              </div>
-              <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card03.jpg")}
-                alt="Card image cap"
-              />
-              <div className="card-body bg-primary">
-                <h5 className="card-title text-center text-white">
-                  Field Testing
-                </h5>
-              </div>
-            </div>
-          </div> */}
         </div>
 
         <div className="row mb-2">
@@ -265,7 +224,7 @@ function Services() {
               <img
                 className="card-img-top card-image"
                 src={require("../assests/images/card04.jpg")}
-                alt="Card image cap"
+                alt="Foundation Testing"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -313,7 +272,7 @@ function Services() {
               <img
                 className="card-img-top card-image"
                 src={require("../assests/images/card4.jpg")}
-                alt="Card image cap"
+                alt="Geotechnical Engineering Consultancy"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -353,7 +312,7 @@ function Services() {
                 className="card-img-top card-image"
                 height="375"
                 src={require("../assests/images/card7.jpg")}
-                alt="Card image cap"
+                alt="Laboratory Testing"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -395,7 +354,7 @@ function Services() {
                 className="card-img-top card-image"
                 height="350"
                 src={require("../assests/images/card9.jpg")}
-                alt="Card image cap"
+                alt="Quality control"
               />
               <div className="card-body bg-primary">
                 <p className="card-title text-center text-white">
@@ -405,73 +364,7 @@ function Services() {
               </div>
             </div>
           </div>
-          {/* <div className="col col-12 col-md-6">
-            <div
-              className="card service-card m-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="overlay overlay-text">
-                <ul className="text-white">
-                  <li>Grain Size Analysis &amp; Hydrometer</li>
-                  <li>Moisture Content and Density</li>
-                  <li>Atterberg Limits &amp; Shrinkage Limit</li>
-                  <li>Specific Gravity</li>
-                  <li>Relative density</li>
-                  <li>Swell Index</li>
-                  <li>Swelling Pressure- oedometer</li>
-                  <li>Direct Shear Test</li>
-                  <li>Triaxial Shear Test</li>
-                  <li>Permeability (Falling head and Constant head)</li>
-                  <li>Unconfined Compression (UCS)</li>
-                  <li>Standard and Modified Compaction Tests</li>
-                  <li>California Bearing Ratio (CBR)</li>
-                </ul>
-              </div>
-              <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card6.jpg")}
-                alt="Card image cap"
-              />
-              <div className="card-body bg-primary">
-                <h5 className="card-title text-center text-white">
-                  Soil Testing
-                </h5>
-              </div>
-            </div>
-          </div> */}
         </div>
-
-        {/* <div className="row mb-2">
-          <div
-            className="col col-12 col-md-6"
-            data-aos="fade-up"
-            data-aos-delay="400"
-          >
-            <div className="card service-card m-2">
-              <div class="overlay overlay-text">
-                <ul className="text-white mt-5">
-                  <li>Density dry / saturated</li>
-                  <li>Moisture Content</li>
-                  <li>Water absorption</li>
-                  <li>Specific Gravity</li>
-                  <li>Unconfined Compressive Strength</li>
-                  <li>Point Load Strength</li>
-                </ul>
-              </div>
-              <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card7.jpg")}
-                alt="Card image cap"
-              />
-              <div className="card-body bg-primary">
-                <p className="card-title text-center text-white">
-                  Rock Testing
-                </p>
-              </div>
-            </div>
-          </div>
-        </div> */}
 
         <div className="row mb-2">
           <div
@@ -526,7 +419,7 @@ function Services() {
                 className="card-img-top card-image"
                 height="350"
                 src={require("../assests/images/renovation.jpeg")}
-                alt="Card image cap"
+                alt="Non Destructive Testing"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -557,7 +450,7 @@ function Services() {
               <img
                 className="card-img-top card-image image-less-height"
                 src={require("../assests/images/Image_36.png")}
-                alt="Card image cap"
+                alt="Training Courses"
               />
               <div className="card-body bg-primary">
                 <h5 className="card-title text-center text-white">
@@ -569,38 +462,7 @@ function Services() {
         </div>
 
         <div clasName="row">
-          <div className="col col-12 col-md-6">
-            {/* <div
-              className="card service-card m-2"
-              data-aos="fade-up"
-              data-aos-delay="400"
-            >
-              <div class="overlay overlay-text">
-                <ul className="text-white">
-                  <li>Rebound Hammer test (Concrete / Bricks / Mortar).</li>
-                  <li>Ultrasonic Pulse Velocity test.</li>
-                  <li>Covermeter test.</li>
-                  <li>Chemical Analysis of concrete.</li>
-                  <li>Core extraction from RC members.</li>
-                  <li>Pull-out test on anchors.</li>
-                  <li>Transverse test on poles.</li>
-                  <li>Load Test on Structures.</li>
-                  <li>Field tests on RC components &amp; structures.</li>
-                  <li>Special tests.</li>
-                </ul>
-              </div>
-              <img
-                className="card-img-top card-image"
-                src={require("../assests/images/card11.jpg")}
-                alt="Card image cap"
-              />
-              <div className="card-body bg-primary">
-                <h5 className="card-title text-center text-white">
-                  NDT Test Facilities
-                </h5>
-              </div>
-            </div> */}
-          </div>
+          <div className="col col-12 col-md-6"></div>
         </div>
       </div>
       <Footer />

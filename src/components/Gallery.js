@@ -10,7 +10,7 @@ function Gallery() {
             <img
               src={require("../assests/images/logo.png")}
               className="img-fluid image-align-center"
-              alt="Responsive image"
+              alt="logo"
             />
           </div>
           <div className="col col-12">
@@ -38,6 +38,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/card1.jpg")}
+              alt="Rotary Drilling using Hydraulic Rig"
             />
           </div>
 
@@ -48,15 +49,17 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_06.png")}
+              alt="Rotary Drilling using Calyx Rig"
             />
           </div>
           <div className="gallery__item gallery__item--3">
             <div className="gallery-text">
-              <p>General view of the site</p>
+              <p>Offshore Drilling</p>
             </div>
             <img
               className="gallery__img"
               src={require("../assests/images/Image_07.png")}
+              alt="Offshore Drilling"
             />
           </div>
           <div className="gallery__item gallery__item--4">
@@ -66,6 +69,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_08.jpeg")}
+              alt="Manual auger"
             />
           </div>
         </div>
@@ -79,18 +83,21 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/card2.jpg")}
+              alt="Geophysical Survey"
             />
           </div>
           <div className="gallery__item gallery__item--02">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_10.png")}
+              alt="Geophysical Survey"
             />
           </div>
           <div className="gallery__item gallery__item--03">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_11.png")}
+              alt="Geophysical Survey"
             />
           </div>
         </div>
@@ -107,6 +114,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_12.png")}
+              alt="Field CBR Testing"
             />
           </div>
           <div className="gallery__item gallery__item--002">
@@ -116,6 +124,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_13.png")}
+              alt="Field DCPT Testing"
             />
           </div>
           <div className="gallery__item gallery__item--003">
@@ -125,6 +134,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_14.png")}
+              alt="Field Density by Sand replacement Method"
             />
           </div>
           <div className="gallery__item gallery__item--004">
@@ -133,7 +143,8 @@ function Gallery() {
             </div>
             <img
               className="gallery__img"
-              src={require("../assests/images/Image_15.png")}
+              src={require("../assests/images/image_15.jpeg")}
+              alt="Field Density by Core cutter Method"
             />
           </div>
         </div>
@@ -150,6 +161,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_16.png")}
+              alt="Static Vertical Compression Pile Load Test"
             />
           </div>
           <div className="gallery__item gallery__item--2">
@@ -159,6 +171,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_17.png")}
+              alt="Static Pull out Pile Load Test"
             />
           </div>
           <div className="gallery__item gallery__item--3">
@@ -168,6 +181,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_18.png")}
+              alt="Static Lateral Pile Load Test"
             />
           </div>
           <div className="gallery__item gallery__item--4">
@@ -177,6 +191,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_19.png")}
+              alt="Low-strain Pile Integrity tests"
             />
           </div>
         </div>
@@ -192,24 +207,28 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_20.png")}
+              alt="GEOTECHNICAL ENGINEERING CONSULTANCY"
             />
           </div>
           <div className="gallery__item gallery__item--2">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_21.png")}
+              alt="GEOTECHNICAL ENGINEERING CONSULTANCY"
             />
           </div>
           <div className="gallery__item gallery__item--3">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_22.png")}
+              alt="GEOTECHNICAL ENGINEERING CONSULTANCY"
             />
           </div>
           <div className="gallery__item gallery__item--4">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_23.png")}
+              alt="GEOTECHNICAL ENGINEERING CONSULTANCY"
             />
           </div>
         </div>
@@ -226,6 +245,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_24.png")}
+              alt="Compressive Strength on Concrete Cores"
             />
           </div>
           <div className="gallery__item gallery__item--0002">
@@ -235,6 +255,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_25.png")}
+              alt="Hydrometer Analysis"
             />
           </div>
           <div className="gallery__item gallery__item--0003">
@@ -244,6 +265,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_26.png")}
+              alt="Point Load test on Rock Specimen"
             />
           </div>
           <div className="gallery__item gallery__item--0004">
@@ -253,6 +275,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_27.png")}
+              alt="Field Laboratory Test Set up for Quality control work"
             />
           </div>
         </div>
@@ -269,6 +292,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_28.png")}
+              alt="Ultrasonic Pulse Velocity Test"
             />
           </div>
           <div className="gallery__item gallery__item--20">
@@ -278,6 +302,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_29.png")}
+              alt="Concrete Core Extraction"
             />
           </div>
           <div className="gallery__item gallery__item--30">
@@ -287,6 +312,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_30.png")}
+              alt="Rebound Hammer Test"
             />
           </div>
           <div className="gallery__item gallery__item--40">
@@ -296,6 +322,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_31.png")}
+              alt="Half Cell Potential test"
             />
           </div>
           <div className="gallery__item gallery__item--50">
@@ -305,6 +332,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_32.png")}
+              alt="Ultrasonic Thickness Gauge test"
             />
           </div>
           <div className="gallery__item gallery__item--60">
@@ -314,6 +342,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_33.png")}
+              alt="Dye Penetration test"
             />
           </div>
           <div className="gallery__item gallery__item--70">
@@ -323,6 +352,7 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_34.png")}
+              alt="Profoscope rebar locators"
             />
           </div>
         </div>
@@ -336,12 +366,14 @@ function Gallery() {
             <img
               className="gallery__img"
               src={require("../assests/images/Image_35.png")}
+              alt="TRAINING COURSES"
             />
           </div>
           <div className="gallery__item gallery__item--0202">
             <img
               className="gallery__img"
               src={require("../assests/images/Image_36.png")}
+              alt="TRAINING COURSES"
             />
           </div>
         </div>
