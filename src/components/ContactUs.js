@@ -39,7 +39,7 @@ function ContactUs() {
                     <form
                       name="contact"
                       method="POST"
-                      netlify
+                      data-netlify="true"
                       onSubmit="submit"
                     >
                       <div class="md-form">
@@ -64,7 +64,7 @@ function ContactUs() {
                           class="form-control"
                         />
                       </div>
-                      <div class="md-form">
+                      {/* <div class="md-form">
                         <label for="contact-Subject" class="">
                           Subject
                         </label>
@@ -74,7 +74,7 @@ function ContactUs() {
                           id="contact-Subject"
                           class="form-control"
                         />
-                      </div>
+                      </div> */}
 
                       <div class="col col-12 mt-4 mb-5">
                         <div class="md-form primary-textarea">
