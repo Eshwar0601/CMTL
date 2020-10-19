@@ -36,13 +36,19 @@ function ContactUs() {
 
                 <div class="row">
                   <div class="col col-12 mt-4">
-                    <form name="contact" method="POST" data-netlify="true">
+                    <form
+                      name="contact"
+                      method="POST"
+                      data-netlify="true"
+                      onSubmit="submit"
+                    >
                       <div class="md-form">
                         <label for="contact-name" class="">
                           Your name
                         </label>
                         <input
                           type="text"
+                          name="name"
                           id="contact-name"
                           class="form-control"
                         />
@@ -53,6 +59,7 @@ function ContactUs() {
                         </label>
                         <input
                           type="text"
+                          name="email"
                           id="contact-email"
                           class="form-control"
                         />
@@ -63,6 +70,7 @@ function ContactUs() {
                         </label>
                         <input
                           type="text"
+                          name="subject"
                           id="contact-Subject"
                           class="form-control"
                         />
@@ -73,6 +81,7 @@ function ContactUs() {
                           <label for="contact-message">Your message</label>
                           <textarea
                             id="contact-message"
+                            name="message"
                             class="md-textarea form-control mb-0"
                             rows="5"
                           ></textarea>
