@@ -39,7 +39,7 @@ function ContactUs() {
                     <form
                       name="contact"
                       method="POST"
-                      data-netlify="true"
+                      netlify
                       onSubmit="submit"
                     >
                       <div class="md-form">
