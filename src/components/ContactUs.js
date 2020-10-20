@@ -46,6 +46,7 @@ function ContactUs() {
                         </label>
                         <input
                           type="text"
+                          name="name"
                           id="name"
                           className="form-control"
                           required
